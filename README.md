@@ -26,3 +26,10 @@ The evaluator implements `AND`, `OR`, parentheses, and three-valued logic over e
 ## Run tests
 
 `python -m unittest test_contract -v` runs local mock tests. These tests do not demonstrate actual validator execution or network access. A deployed address and live transaction evidence should be added only after verification.
+
+## Studio-dev deployment
+
+- Contract: [0x0abC6d05827792Bb64558C0a40156d1BCf927Bb2](https://explorer-studio-dev.genlayer.com/address/0x0abC6d05827792Bb64558C0a40156d1BCf927Bb2)
+- [Deployment transaction](https://explorer-studio-dev.genlayer.com/tx/0x9e89e3ba1236cc88161c7300010d413fb99dca15fd27bb9ca5602aadeca4e924) finalized successfully.
+- [Policy creation transaction](https://explorer-studio-dev.genlayer.com/tx/0xbd1b7ee0e69569acbb9a71b6eea16bcc960dc26656104a6b688d6576cd526207) finalized successfully and policy 1 was read back.
+- Live on-chain audit against npm has not yet been confirmed.
